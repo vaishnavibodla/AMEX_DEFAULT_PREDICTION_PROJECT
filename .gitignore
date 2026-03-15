@@ -1,0 +1,16 @@
+# Ignore all data
+data/
+*.parquet
+*.csv
+
+# Ignore notebooks checkpoints
+.ipynb_checkpoints/
+
+# Ignore large models
+*.bin
+*.pth
+
+# Python cache
+__pycache__/
+*.pyc
+
